@@ -32,7 +32,7 @@ class School
       new_array << value
     end
     puts new_array.sort
-    new_array
+    new_array.flatten.sort
   end
   
   
