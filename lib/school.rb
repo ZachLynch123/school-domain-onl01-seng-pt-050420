@@ -29,7 +29,7 @@ class School
     
     new_array = []
     @roster.each do |key, value|
-      @roster[key] << value.sort
+      @roster[key] = value.sort
     end
     @roster
   end
