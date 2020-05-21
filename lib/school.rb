@@ -28,11 +28,9 @@ class School
   def sort 
     
     new_array = []
-    @roster.each do |key, value|
-      new_array << value
+    @roster.collect do |key, value|
+      key[value].sort
     end
-    puts new_array.sort
-    new_array.flatten.sort
   end
   
   
