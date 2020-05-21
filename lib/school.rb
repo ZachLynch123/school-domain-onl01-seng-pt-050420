@@ -26,6 +26,8 @@ class School
   end
   
   def sort 
+    
+    new_array = []
     @roster.each do |key, value|
       value
     end
