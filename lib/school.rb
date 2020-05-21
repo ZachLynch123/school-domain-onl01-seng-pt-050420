@@ -28,7 +28,7 @@ class School
   def sort 
     
     new_array = []
-    @roster.each do |key, value|
+    @roster.collect do |key, value|
       value
     end
   end
