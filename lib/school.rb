@@ -31,7 +31,7 @@ class School
     @roster.collect do |key, value|
       new_array << value
     end
-    puts new_array
+    puts new_array.sort
   end
   
   
