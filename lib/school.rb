@@ -29,8 +29,9 @@ class School
     
     new_array = []
     @roster.collect do |key, value|
-      value.flatten.sort
+      new_array << value
     end
+    new_array
   end
   
   
